@@ -1327,4 +1327,3 @@ class Admin:
 		# do stuff
 		msg = 'setmotd Error: {}'.format(error)
 		await ctx.channel.send(msg)
-© 2018 GitHub, Inc.
