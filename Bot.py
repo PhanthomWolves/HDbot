@@ -144,7 +144,7 @@ class Bot:
 		
 		# Get the current prefix
 		prefix = await self.bot.command_prefix(self.bot, ctx.message)
-		prefix = ", ".join(prefix)
+		prefix = "HD! ".join(prefix)
 
 		# Get the owners
 		ownerList = self.settings.serverDict['Owner']
