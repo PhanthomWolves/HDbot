@@ -5,3 +5,4 @@ chardet
 psutil
 pyspeedtest
 Pillow
+Cogs
