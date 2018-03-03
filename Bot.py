@@ -13,15 +13,15 @@ import json
 import struct
 from   PIL         import Image
 from   discord.ext import commands
-from   cogs import Settings
-from   cogs import DisplayName
-from   cogs import ReadableTime
-from   cogs import GetImage
-from   cogs import Nullify
-from   cogs import ProgressBar
-from   cogs import UserTime
-from   cogs import Message
-from   cogs import DL
+from   cogs import settings
+from   cogs import displayName
+from   cogs import readableTime
+from   cogs import getImage
+from   cogs import nullify
+from   cogs import progressBar
+from   cogs import userTime
+from   cogs import message
+from   cogs import dL
 try:
     from urllib.parse import urlparse
 except ImportError:
