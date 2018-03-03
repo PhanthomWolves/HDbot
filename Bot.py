@@ -13,12 +13,24 @@ import json
 import struct
 from   PIL         import Image
 from   discord.ext import commands
+from   cogs import settings
+from   cogs import displayName
+from   cogs import readableTime
+from   cogs import getImage
+from   cogs import nullify
+from   cogs import progressBar
+from   cogs import userTime
+from   cogs import message
+from   cogs import dL
 try:
     from urllib.parse import urlparse
 except ImportError:
     from urlparse import urlparse
 
-
+def setup(bot):
+	# Add the bot and deps
+	settings = bot.get_cog("Settings")
+	bot.add_cog(Bot(bot, settings, sys.argv[0], 'python'))
 
 # This is the Bot module - it contains things like nickname, status, etc
 
