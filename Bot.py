@@ -13,7 +13,7 @@ import json
 import struct
 from PIL import Image
 from discord.ext import commands
-from cogs import setting
+from cogs import Settings
 from cogs import displayName
 from cogs import readableTime
 from cogs import getImage
