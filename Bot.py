@@ -17,7 +17,7 @@ from cogs import setting
 from cogs import displayName
 from cogs import readableTime
 from cogs import getImage
-from  ogs import nullify
+from cogs import nullify
 from cogs import progressBar
 from cogs import userTime
 from cogs import message
