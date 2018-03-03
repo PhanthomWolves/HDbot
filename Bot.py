@@ -11,6 +11,7 @@ import subprocess
 import pyspeedtest
 import json
 import struct
+import Cogs
 from   PIL         import Image
 from   discord.ext import commands
 from   Cogs import Settings
