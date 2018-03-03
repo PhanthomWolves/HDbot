@@ -4,4 +4,4 @@ websockets
 chardet
 psutil
 pyspeedtest
-pypi
+Pillow
